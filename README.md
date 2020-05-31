@@ -7,7 +7,7 @@ This GitHub Action retrieves the version from the lerna.json file and sets the v
 To use this action in your project, use the following:
 
 ```yaml
-      - name: get-npm-version
+      - name: get-lerna-version
         id: package-version
         uses: saulonunesdev/lerna-get-version-action@master
 ```
