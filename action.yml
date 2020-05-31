@@ -1,0 +1,12 @@
+
+name: 'Get current lerna version'
+description: 'Get the current version of lerna.json'
+branding:
+  color: 'gray-dark'
+  icon: 'align-center'
+outputs:
+  lerna-version:
+    description: 'Current version defined in the lerna.json file'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
