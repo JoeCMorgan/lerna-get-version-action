@@ -9,7 +9,7 @@ To use this action in your project, use the following:
 ```yaml
       - name: get-lerna-version
         id: package-version
-        uses: saulonunesdev/lerna-get-version-action@master
+        uses: saulonunesdev/lerna-get-version-action@v1
 ```
 
 The Action sets an output variable called `lerna-version` which can be used in a following step by using `${{ steps.lerna-version.outputs.lerna-version}}`.
