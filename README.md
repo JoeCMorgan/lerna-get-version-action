@@ -24,4 +24,4 @@ If you are using a monorepo or otherwise have some packages in a subdirectory of
           path: packages/<yourpackage>
 ```
 
-Based on: https://github.com/martinbeentjes/npm-get-version-action
+Forked from https://github.com/saulonunesdev/lerna-get-version-action, Based on: https://github.com/martinbeentjes/npm-get-version-action
