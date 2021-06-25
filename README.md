@@ -14,4 +14,14 @@ To use this action in your project, use the following:
 
 The Action sets an output variable called `lerna-version` which can be used in a following step by using `${{ steps.lerna-version.outputs.lerna-version}}`.
 
+If you are using a monorepo or otherwise have some packages in a subdirectory of your repo, add the path to the lerna.json as a parameter:
+
+```yaml
+      - name: get-lerna-version
+        id: lerna-version
+        uses: saulonunesdev/lerna-get-version-action@v1.0.4
+        with:
+          path: packages/<yourpackage>
+```
+
 Based on: https://github.com/martinbeentjes/npm-get-version-action
